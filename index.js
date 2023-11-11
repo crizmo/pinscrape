@@ -65,7 +65,6 @@ app.get("/api/:username/:boardName/pins", function (req, res) {
             }
         });
 
-        // Save the extracted URLs to a JSON file without the "images" property
         var jsonContent = JSON.stringify(results_file, null, 2);
         fs.writeFileSync('urls.json', jsonContent, 'utf8');
 
