@@ -2,10 +2,10 @@
 
 A simple image scraper API for Pinterest boards.
 
-![License](https://img.shields.io/github/license/kurizu/pinscrape)
-![Issues](https://img.shields.io/github/issues/kurizu/pinscrape)
-![Forks](https://img.shields.io/github/forks/kurizu/pinscrape)
-![Stars](https://img.shields.io/github/stars/kurizu/pinscrape)
+![License](https://img.shields.io/github/license/crizmo/pinscrape)
+![Issues](https://img.shields.io/github/issues/crizmo/pinscrape)
+![Forks](https://img.shields.io/github/crizmo/pinscrape)
+![Stars](https://img.shields.io/github/stars/crizmo/pinscrape)
 
 ## Table of Contents
 
