@@ -45,7 +45,7 @@ app.get("/api/:username/:boardName/info", function (req, res) {
 
 app.get("/api/:username/:boardName/pins", function (req, res) {
     var results = [];
-    var results_file = [];
+    // var results_file = [];
 
     request.get(url + req.params.username + '/' + req.params.boardName, function (error, response, html) {
         var $ = cheerio.load(html);
@@ -57,12 +57,12 @@ app.get("/api/:username/:boardName/pins", function (req, res) {
             if (src) {
                 src = src.toString().replace(re, "564x");
                 results[i] = { src: src, alt: alt };
-                results_file.push(src);
+                // results_file.push(src);
             }
         });
 
-        var jsonContent = JSON.stringify(results_file, null, 2);
-        fs.writeFileSync('urls.json', jsonContent, 'utf8');
+        // var jsonContent = JSON.stringify(results_file, null, 2);
+        // fs.writeFileSync('urls.json', jsonContent, 'utf8');
 
         res.json({ images: results });
     });
