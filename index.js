@@ -24,10 +24,6 @@ app.get("/", function (req, res) {
     });
 });
 
-app.get("/api/:boardName", function (req, res) {
-    res.json({ BoardName: req.params.boardName });
-});
-
 app.get("/api/:username/:boardName/info", function (req, res) {
     var title = "";
 

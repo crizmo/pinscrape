@@ -1,6 +1,11 @@
 # Pinterest Scraper
 
-This is a simple web scraper for Pinterest that extracts information about a user's board, including the board title, total number of pins, and URLs of the images in the board.
+A simple image scraper API for Pinterest boards.
+
+![License](https://img.shields.io/github/license/kurizu/pinscrape)
+![Issues](https://img.shields.io/github/issues/kurizu/pinscrape)
+![Forks](https://img.shields.io/github/forks/kurizu/pinscrape)
+![Stars](https://img.shields.io/github/stars/kurizu/pinscrape)
 
 ## Table of Contents
 
@@ -27,7 +32,7 @@ This is a simple web scraper for Pinterest that extracts information about a use
 2. Install the dependencies:
 
     ```bash
-        cd pin-scrape
+        cd pinscrape
         npm install
     ```
 
